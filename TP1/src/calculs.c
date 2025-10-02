@@ -14,9 +14,10 @@ int main(){
             break;
         }
     }
-    printf( "la somme est :", %d, somme);
+    printf( "la somme est : %d", somme);
 
 }
+
 
 
 
