@@ -29,13 +29,13 @@ int main(){
                 printf("Error: Division by zero\n");
             }
             break;
-        case '||':
-            printf("Result: %d\n", num1 || num2);
+        case '|':
+            printf("Result: %d\n", num1 | num2);
             break;
         
-        case '&&':
-            printf("Result: %d\n", num1 && num2);
-            break;
+        case '&':
+            printf("Result: %d\n", num1 & num2);
+            break;  
         
         case '~':
             printf("Result: %d\n", ~num1);
