@@ -7,8 +7,9 @@ int main(){
   for(int i= 1; i<b ; i++){
     puissance = puissance * a;
   }
-  printf("a puissance b = %d", a);
+  printf("a puissance b = %d", puissance);
   
 }
+
 
 
