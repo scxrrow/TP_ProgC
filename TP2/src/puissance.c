@@ -1,5 +1,12 @@
 #include <stdio.h>
 
 int main(){
-  printf("a à la puissance b donne : %d", 2^3);
+  int b = 3;
+  int a= 2;
+  for(int i= 1; i<b ; i++){
+    a=a*a;
+  }
+  printf("a puissance b = %d", a);
+  
 }
+
