@@ -14,5 +14,7 @@ int main(){
             break;
         }
     }
+    return somme;
 }
+
 
