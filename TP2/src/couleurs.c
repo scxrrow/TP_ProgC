@@ -30,11 +30,8 @@ int main() {
         printf("Vert  : %d\n", couleurs[i].vert);
         printf("Bleu  : %d\n", couleurs[i].bleu);
         printf("Alpha : %d\n", couleurs[i].alpha);
-        printf("Hexadécimal : #%02X%02X%02X%02X\n", 
-            couleurs[i].rouge, 
-            couleurs[i].vert, 
-            couleurs[i].bleu, 
-            couleurs[i].alpha);
+       
         printf("------------------------\n");
     }
 }
+
